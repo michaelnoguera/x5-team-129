@@ -2,7 +2,7 @@
 
 ## Description
 This program proposals more on helping human decision, not for mechanic automatic decision.
-###Symbols
+### Symbols
 Class size = N
 Team size = n
 ### Assumptions and definitions
