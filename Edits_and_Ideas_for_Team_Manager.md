@@ -3,7 +3,7 @@
 ## Description
 This program proposals more on helping human decision, not for mechanic automatic decision.
 ### Symbols
-Class size = N;
+Class size = N; <br>
 Team size = n.
 ### Assumptions and definitions
 1. Assume team maker (the user of this program) give survey to the class every time when group decision is needed.
@@ -15,12 +15,14 @@ Team size = n.
 The input file should be a CSV or JSON file each time which contains all the data from each survey.
 ## Team Size/Number Calculator
 When N != 0(mod n), modify some teams' size:
-for (int c = 1; c <= (n-1); c++) { \n
-     if n(mod 2) != c(mod 2) \n
-        we have ⌊N/n⌋-1 teams with size n, 1 team with size (n-1) and 1 team with size (n-2); \n
-     if n(mod 2) == c(mod 2) \n
-        we have ⌊N/n⌋-1 teams with size n and 2 teams with size (n-1); \n
-} \n
+```Java
+for (int c = 1; c <= (n-1); c++) {
+     if n(mod 2) != c(mod 2)
+        we have ⌊N/n⌋-1 teams with size n, 1 team with size (n-1) and 1 team with size (n-2);
+     if n(mod 2) == c(mod 2)
+        we have ⌊N/n⌋-1 teams with size n and 2 teams with size (n-1);
+} 
+```
 ## Output
 The input file should be a marked CSV or JSON file contains list of teams.
 
