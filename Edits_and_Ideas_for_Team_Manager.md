@@ -57,11 +57,12 @@ better.
 - at first, use Dijkstra's algorithm to find the shortest path with at least length team size from randomly chosen vertexes (this is slow)
 
 ## GUI Figures
-[ ] modify original gui
-[ ] image for each tab
-[ ] colors to show teams
-[X] edit user demonstrates instructor override
-[ ] emphasize capability to add user
+- [ ] modify original gui
+- [ ] image for each tab
+- [ ] colors to show teams
+- [x] edit user demonstrates instructor override
+- [ ] emphasize capability to add user
 
 ## Data Figures
-[ ] show teams as a array-based List of team objects, each containing an array-based List of their constituent members.
+- [ ] show teams as a array-based List of team objects, each containing an array-based List of their constituent members.
+- [ ] describe but do not model adjacency list
