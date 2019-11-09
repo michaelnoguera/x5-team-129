@@ -1,15 +1,17 @@
 ## Team 1
-- person 1
-- person 2
+- Allie
+- Brandon
+- William
 
 ## Team 2
-1. person 1
-1. person 2
+- Jane
+- Melanie
+- Jakob
 
 ## Team 3
-
+- Simon
+- David
 
 ## Team 4
-
-
-## Team 5
+- Laura
+- Christine
